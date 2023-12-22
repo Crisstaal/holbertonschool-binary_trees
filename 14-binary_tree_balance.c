@@ -7,8 +7,8 @@
  */
 int balance_difference(const binary_tree_t *tree, int first_node)
 {
-	int l = 0; 
-    int j = 0;
+	int l = 0;
+	int j = 0;
 
 	if (tree->left)
 		l = 1 + balance_difference(tree->left, 0);
