@@ -2,7 +2,7 @@
 
 /**
  * binary_tree_postorder - goes through binary using post-order traversal
- * @tree: pointer 
+ * @tree: pointer
  * @func: pointer
  * Return: The value in the node
  */
